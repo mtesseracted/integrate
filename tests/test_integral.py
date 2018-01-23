@@ -37,4 +37,6 @@ def test_monte1d():
 def test_monte2d():
     domain = np.array([[-1, -1], [1, 1]])
     I = integrate.stochastic.monte_carlo.monte_2d(h, volume, domain, 1000000)
+    print(np.pi)
+    print(I)
     assert np.allclose(I, np.pi, 1e-2)
