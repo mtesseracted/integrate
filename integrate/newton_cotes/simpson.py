@@ -9,7 +9,10 @@ def evaluate(bounds, func):
     """
 
     Evaluates simpsons rules on a array of values and a function pointer.
-    \int_{a}^{b} = \sum_i ...
+
+    .. math::
+
+        \int_{a}^{b} = \sum_i ...
 
     Parameters
     ----------
