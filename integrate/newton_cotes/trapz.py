@@ -10,5 +10,9 @@ def evaluate(x, f):
     b = x[1]
     ya = f(a)
     yb = f(b)
+<<<<<<< HEAD
     I = (b - a) * (ya + yb) / 2.
+=======
+    I = (b - a) * (ya + yb) / 2
+>>>>>>> 9bc509d72ead88d5ba43c6b2fafeb224779475a3
     return I
